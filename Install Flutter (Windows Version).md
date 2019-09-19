@@ -13,18 +13,18 @@
     <p>Sebelum instalasi, ada beberapa komponen yang perlu Anda siapkan. Berikut langkah-langkahnya.</p>
     <h3>Download SDK Flutter</h3>
     <p>
-    Silahkan Anda kunjungi <a href="https://flutter.dev/docs/development/tools/sdk/releases">website</a> Flutter untuk mendownload file sdk. Disana Anda bisa memilih untuk chanel apa yang Anda butuhkan, seperti: Stable, Beta, Dev atau Master Chanel. Di tutorial ini menggunakan sdk Flutter, Stable Chanel.
+    Silahkan Anda kunjungi <a href="https://flutter.dev/docs/development/tools/sdk/releases">website</a> Flutter untuk mendownload file sdk. Disana Anda bisa memilih chanel apa yang Anda butuhkan, seperti: Stable, Beta, Dev atau Master Chanel. Di tutorial ini menggunakan sdk Flutter, Stable Chanel.
     </p>
 
    <h3>Download Basic Android Command Line Tools</h3>
-    <ul>
-      <li>Jika Anda tidak membutuhkan Android Studio, Anda bisa mengunjungi <a href="https://developer.android.com/studio/#command-tools">website</a> ini untuk mendownload basic Android.</li>
-    </ul>
+    <p>
+  Jika Anda tidak membutuhkan Android Studio, Anda bisa mengunjungi <a href="https://developer.android.com/studio/#command-tools">website</a> ini untuk mendownload basic Android.
+    </p>
 
    <h3>Download jdk8u212-b03</h3>
-     <ul>
-      <li>Download file tersebut di <a href="https://github.com/AdoptOpenJDK/openjdk8-binaries/releases/tag/jdk8u212-b03">website</a> ini.</li>
-    </ul>
+     <p>
+      Download file tersebut di <a href="https://github.com/AdoptOpenJDK/openjdk8-binaries/releases/tag/jdk8u212-b03">website</a> ini.
+    </p>
 
    <h3>Membuat Direktori Baru</h3>
     <p>Jika langkah-langkah di atas sudah Anda selesaikan, maka selanjutnya adalah membuat direktori baru dengan nama “Android” di dalam “C:\”.</p>
