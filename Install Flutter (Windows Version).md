@@ -19,8 +19,14 @@
   <li>Download file tersebut di <a href="https://github.com/AdoptOpenJDK/openjdk8-binaries/releases/tag/jdk8u212-b03">website</a> ini.</li>
 </ul>
 
-<h3></h3>
-<p></p>
+<h3>Membuat Direktori Baru</h3>
+<p>Jika langkah-langkah di atas sudah Anda selesaikan, maka selanjutnya adalah membuat direktori baru dengan nama “Android” di dalam “C:\”.</p>
+
+<h3>Ekstrak dan Moving File</h3>
+<p>Cari file yang sudah Anda download kemudian ekstrak lalu pindahkan file tersebut ke direktori Android.</p>
+
+<b>Catatan: rename folder “jdk8u212-b03” dengan openjdk.</b>
+<p>Path: C:\Android</p>
 
 <h3></h3>
 <p></p>
