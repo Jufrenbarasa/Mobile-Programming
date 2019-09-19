@@ -16,27 +16,27 @@
     Silahkan Anda kunjungi <a href="https://flutter.dev/docs/development/tools/sdk/releases">website</a> Flutter untuk mendownload file sdk. Disana Anda bisa memilih untuk chanel apa yang Anda butuhkan, seperti: Stable, Beta, Dev atau Master Chanel. Di tutorial ini menggunakan sdk Flutter, Stable Chanel.
     </p>
 
-    <h3>Download Basic Android Command Line Tools</h3>
+   <h3>Download Basic Android Command Line Tools</h3>
     <ul>
       <li>Jika Anda tidak membutuhkan Android Studio, Anda bisa mengunjungi <a href="https://developer.android.com/studio/#command-tools">website</a> ini untuk mendownload basic Android.</li>
     </ul>
 
-    <h3>Download jdk8u212-b03</h3>
+   <h3>Download jdk8u212-b03</h3>
      <ul>
       <li>Download file tersebut di <a href="https://github.com/AdoptOpenJDK/openjdk8-binaries/releases/tag/jdk8u212-b03">website</a> ini.</li>
     </ul>
 
-    <h3>Membuat Direktori Baru</h3>
+   <h3>Membuat Direktori Baru</h3>
     <p>Jika langkah-langkah di atas sudah Anda selesaikan, maka selanjutnya adalah membuat direktori baru dengan nama “Android” di dalam “C:\”.</p>
 
-    <h3>Ekstrak dan Moving File</h3>
+   <h3>Ekstrak dan Moving File</h3>
     <p>
     Cari file yang sudah Anda download kemudian ekstrak lalu pindahkan file tersebut ke direktori Android.<br>
     <b>Catatan: rename folder “jdk8u212-b03” dengan openjdk.</b><br>
     Path: C:\Android
     </p>
 
-    <h3>Set Environment Variable dan Path</h3>
+   <h3>Set Environment Variable dan Path</h3>
     <p>
     Buka command prompt di windows Anda, run as administrator. Kemudian copy and paste command per baris kemudian enter untuk men-set variable dan path.
     <ul>
@@ -46,9 +46,9 @@
       <li>setx path “%path%;”C:\Android\sdk;C:\Android\tools\bin;C:\Android\flutter\bin”</li>
     </ul>
     
-    Kemudian di command prompt arahkan ke path berikut:
-    C:/Android/tools/bin 
-    </p>
+   Kemudian di command prompt arahkan ke path berikut:
+   C:/Android/tools/bin 
+   </p>
 Lalu jalankan copy and paste per baris dan jalankan perintah tersebut.
 <ul>
   <li>sdkmanager “system-images;android-28;default;x86_64”</li>
