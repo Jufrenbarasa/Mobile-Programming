@@ -7,6 +7,7 @@
       <li><a href="https://github.com/Jufrenbarasa/Mobile-Programming/blob/master/Install%20Flutter%20(Windows%20Version).md#membuat-direktori-baru">Membuat Direktori Baru</a></li>
       <li><a href="https://github.com/Jufrenbarasa/Mobile-Programming/blob/master/Install%20Flutter%20(Windows%20Version).md#ekstrak-dan-moving-file">Ekstrak dan Moving File</a></li>
       <li><a href="https://github.com/Jufrenbarasa/Mobile-Programming/blob/master/Install%20Flutter%20(Windows%20Version).md#set-environment-variable-dan-path">Set Environment Variable dan Path</a></li>
+      <li><a href="https://github.com/Jufrenbarasa/Mobile-Programming/blob/master/Install%20Flutter%20(Windows%20Version).md#update-android-sdk-last-version">Update Android SDK (Last Version)</a></li>
     </ul>
 
   <h2>Persiapan</h2>
