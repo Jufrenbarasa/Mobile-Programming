@@ -1,4 +1,4 @@
-<h1>Cara Instalasi Flutter untuk Komputer Spesifikasi Ringan (Windows Version)</h1>
+<h1>Cara Instal Flutter untuk Komputer Spesifikasi Ringan (Windows Version)</h1>
 <h2>Topik</h2>
 <ul>
   <li><a href="https://github.com/Jufrenbarasa/Mobile-Programming/blob/master/Install%20Flutter%20(Windows%20Version).md#download-sdk-flutter">Download SDK Flutter</a></li>
