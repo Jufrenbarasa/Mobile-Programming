@@ -1,61 +1,54 @@
 <h1>Cara Instal Flutter untuk Komputer Spesifikasi Ringan (Windows Version)</h1>
-<h2>Topik</h2>
-<ul>
-  <li><a href="https://github.com/Jufrenbarasa/Mobile-Programming/blob/master/Install%20Flutter%20(Windows%20Version).md#download-sdk-flutter">Download SDK Flutter</a></li>
-  <li><a href="https://github.com/Jufrenbarasa/Mobile-Programming/blob/master/Install%20Flutter%20(Windows%20Version).md#download-basic-android-command-line-tools">Download Basic Android Command Line Tools</a></li>
-  <li><a href="https://github.com/Jufrenbarasa/Mobile-Programming/blob/master/Install%20Flutter%20(Windows%20Version).md#download-jdk8u212-b03">Download jdk8u212-b03</a></li>
-  <li><a href="https://github.com/Jufrenbarasa/Mobile-Programming/blob/master/Install%20Flutter%20(Windows%20Version).md#membuat-direktori-baru">Membuat Direktori Baru</a></li>
-  <li><a href="https://github.com/Jufrenbarasa/Mobile-Programming/blob/master/Install%20Flutter%20(Windows%20Version).md#ekstrak-dan-moving-file">Ekstrak dan Moving File</a></li>
-  <li><a href="https://github.com/Jufrenbarasa/Mobile-Programming/blob/master/Install%20Flutter%20(Windows%20Version).md#set-environment-variable-dan-path">Set Environment Variable dan Path</a></li>
-</ul>
+  <h2>Topik</h2>
+    <ul>
+      <li><a href="https://github.com/Jufrenbarasa/Mobile-Programming/blob/master/Install%20Flutter%20(Windows%20Version).md#download-sdk-flutter">Download SDK Flutter</a></li>
+      <li><a href="https://github.com/Jufrenbarasa/Mobile-Programming/blob/master/Install%20Flutter%20(Windows%20Version).md#download-basic-android-command-line-tools">Download Basic Android Command Line Tools</a></li>
+      <li><a href="https://github.com/Jufrenbarasa/Mobile-Programming/blob/master/Install%20Flutter%20(Windows%20Version).md#download-jdk8u212-b03">Download jdk8u212-b03</a></li>
+      <li><a href="https://github.com/Jufrenbarasa/Mobile-Programming/blob/master/Install%20Flutter%20(Windows%20Version).md#membuat-direktori-baru">Membuat Direktori Baru</a></li>
+      <li><a href="https://github.com/Jufrenbarasa/Mobile-Programming/blob/master/Install%20Flutter%20(Windows%20Version).md#ekstrak-dan-moving-file">Ekstrak dan Moving File</a></li>
+      <li><a href="https://github.com/Jufrenbarasa/Mobile-Programming/blob/master/Install%20Flutter%20(Windows%20Version).md#set-environment-variable-dan-path">Set Environment Variable dan Path</a></li>
+    </ul>
 
-<h2>Persiapan</h2>
-<p>Sebelum instalasi, ada beberapa komponen yang perlu Anda siapkan. Berikut langkah-langkahnya.</p>
+  <h2>Persiapan</h2>
+    <p>Sebelum instalasi, ada beberapa komponen yang perlu Anda siapkan. Berikut langkah-langkahnya.</p>
+    <h3>Download SDK Flutter</h3>
+    <p>
+    Silahkan Anda kunjungi <a href="https://flutter.dev/docs/development/tools/sdk/releases">website</a> Flutter untuk mendownload file sdk. Disana Anda bisa memilih untuk chanel apa yang Anda butuhkan, seperti: Stable, Beta, Dev atau Master Chanel. Di tutorial ini menggunakan sdk Flutter, Stable Chanel.
+    </p>
 
-<h3>Download SDK Flutter</h3>
-<ul>
-  <li>Silahkan Anda kunjungi <a href="https://flutter.dev/docs/development/tools/sdk/releases">website</a> Flutter untuk mendownload file sdk.</li>
-  <li>Disana Anda bisa memilih untuk chanel apa yang Anda butuhkan, seperti: Stable, Beta, Dev atau Master Chanel.</li>
-  <li>Di tutorial ini menggunakan sdk Flutter, Stable Chanel.</li>
-</ul>
+    <h3>Download Basic Android Command Line Tools</h3>
+    <ul>
+      <li>Jika Anda tidak membutuhkan Android Studio, Anda bisa mengunjungi <a href="https://developer.android.com/studio/#command-tools">website</a> ini untuk mendownload basic Android.</li>
+    </ul>
 
-<h3>Download Basic Android Command Line Tools</h3>
-<ul>
-  <li>Jika Anda tidak membutuhkan Android Studio, Anda bisa mengunjungi <a href="https://developer.android.com/studio/#command-tools">website</a> ini untuk mendownload basic Android.</li>
-</ul>
+    <h3>Download jdk8u212-b03</h3>
+     <ul>
+      <li>Download file tersebut di <a href="https://github.com/AdoptOpenJDK/openjdk8-binaries/releases/tag/jdk8u212-b03">website</a> ini.</li>
+    </ul>
 
-<h3>Download jdk8u212-b03</h3>
-<ul>
-  <li>Download file tersebut di <a href="https://github.com/AdoptOpenJDK/openjdk8-binaries/releases/tag/jdk8u212-b03">website</a> ini.</li>
-</ul>
+    <h3>Membuat Direktori Baru</h3>
+    <p>Jika langkah-langkah di atas sudah Anda selesaikan, maka selanjutnya adalah membuat direktori baru dengan nama “Android” di dalam “C:\”.</p>
 
-<h3>Membuat Direktori Baru</h3>
-<p>Jika langkah-langkah di atas sudah Anda selesaikan, maka selanjutnya adalah membuat direktori baru dengan nama “Android” di dalam “C:\”.</p>
+    <h3>Ekstrak dan Moving File</h3>
+    <p>
+    Cari file yang sudah Anda download kemudian ekstrak lalu pindahkan file tersebut ke direktori Android.<br>
+    <b>Catatan: rename folder “jdk8u212-b03” dengan openjdk.</b><br>
+    Path: C:\Android
+    </p>
 
-<h3>Ekstrak dan Moving File</h3>
-<p>Cari file yang sudah Anda download kemudian ekstrak lalu pindahkan file tersebut ke direktori Android.</p>
-
-<b>Catatan: rename folder “jdk8u212-b03” dengan openjdk.</b>
-<p>Path: C:\Android</p>
-
-<h3>Set Environment Variable dan Path</h3>
-
-<p>
-Buka command prompt di windows Anda, run as administrator. Kemudian copy and paste command per baris kemudian enter untuk men-set variable dan path.
-<ul>
-  <li>setx JAVA_HOME “C:\Android\openjdk”</li>
-
-  <li>setx ANDROID_HOME “C:\Android”</li>
-
-  <li>setx ANDROID_SDK_ROOT “C:\Android\tools”</li>
-
-  <li>setx path “%path%;”C:\Android\sdk;C:\Android\tools\bin;C:\Android\flutter\bin”</li>
-</ul>
-</p>
-
-Kemudian di command prompt arahkan ke path berikut:
-C:/Android/tools/bin 
-
+    <h3>Set Environment Variable dan Path</h3>
+    <p>
+    Buka command prompt di windows Anda, run as administrator. Kemudian copy and paste command per baris kemudian enter untuk men-set variable dan path.
+    <ul>
+      <li>setx JAVA_HOME “C:\Android\openjdk”</li>
+      <li>setx ANDROID_HOME “C:\Android”</li>
+      <li>setx ANDROID_SDK_ROOT “C:\Android\tools”</li>
+      <li>setx path “%path%;”C:\Android\sdk;C:\Android\tools\bin;C:\Android\flutter\bin”</li>
+    </ul>
+    
+    Kemudian di command prompt arahkan ke path berikut:
+    C:/Android/tools/bin 
+    </p>
 Lalu jalankan copy and paste per baris dan jalankan perintah tersebut.
 <ul>
   <li>sdkmanager “system-images;android-28;default;x86_64”</li>
