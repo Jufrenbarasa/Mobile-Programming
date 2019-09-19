@@ -2,7 +2,13 @@
 <h2>Topik</h2>
 <ul>
   <li><a href="https://github.com/Jufrenbarasa/Mobile-Programming/blob/master/Install%20Flutter%20(Windows%20Version).md#download-sdk-flutter">Download SDK Flutter</a></li>
-<ul>
+  <li><a href="https://github.com/Jufrenbarasa/Mobile-Programming/blob/master/Install%20Flutter%20(Windows%20Version).md#download-basic-android-command-line-tools">Download Basic Android Command Line Tools</a></li>
+  <li><a href="https://github.com/Jufrenbarasa/Mobile-Programming/blob/master/Install%20Flutter%20(Windows%20Version).md#download-jdk8u212-b03">Download jdk8u212-b03</a></li>
+  <li><a href="https://github.com/Jufrenbarasa/Mobile-Programming/blob/master/Install%20Flutter%20(Windows%20Version).md#membuat-direktori-baru">Membuat Direktori Baru</a></li>
+  <li><a href="https://github.com/Jufrenbarasa/Mobile-Programming/blob/master/Install%20Flutter%20(Windows%20Version).md#ekstrak-dan-moving-file">Ekstrak dan Moving File</a></li>
+  <li><a href="https://github.com/Jufrenbarasa/Mobile-Programming/blob/master/Install%20Flutter%20(Windows%20Version).md#set-environment-variable-dan-path">Set Environment Variable dan Path</a></li>
+</ul>
+
 <h2>Persiapan</h2>
 <p>Sebelum instalasi, ada beberapa komponen yang perlu Anda siapkan. Berikut langkah-langkahnya.</p>
 
