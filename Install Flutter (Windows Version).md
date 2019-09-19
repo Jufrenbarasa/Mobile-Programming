@@ -32,7 +32,7 @@
    <h3>Ekstrak dan Moving File</h3>
     <p>
     Cari file yang sudah Anda download kemudian ekstrak lalu pindahkan file tersebut ke direktori Android.<br>
-    <b>Catatan: rename folder “jdk8u212-b03” dengan openjdk.</b><br>
+    <q><b>Catatan: rename folder “jdk8u212-b03” dengan openjdk.</b></q><br>
     Path: C:\Android
     </p>
 
@@ -57,7 +57,7 @@ Lalu jalankan copy and paste per baris dan jalankan perintah tersebut.
   <li>sdkmanager “platforms;android-28”</li>
 </ul>
 Update Android SDK (Last Version)
-Untuk sdk, Flutter selalu memerlukan Android SDK yang terbaru. jadi silahkan update sdk dengan command di bawah ini:
+Untuk sdk, Flutter selalu memerlukan Android SDK yang terbaru. jadi silahkan update sdk dengan command di bawah ini:<br>
 sdkmanager —-update
 
 Kemudian jangan lupa untuk accept licenses-nya:
