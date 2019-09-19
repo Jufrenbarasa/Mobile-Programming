@@ -28,5 +28,39 @@
 <b>Catatan: rename folder “jdk8u212-b03” dengan openjdk.</b>
 <p>Path: C:\Android</p>
 
-<h3></h3>
-<p></p>
+<h3>Set Environment Variable dan Path</h3>
+<p>
+Buka command prompt di windows Anda, run as administrator. Kemudian copy and paste command per baris kemudian enter untuk men-set variable dan path.
+setx JAVA_HOME “C:\Android\openjdk”
+
+setx ANDROID_HOME “C:\Android”
+
+setx ANDROID_SDK_ROOT “C:\Android\tools”
+
+setx path “%path%;”C:\Android\sdk;C:\Android\tools\bin;C:\Android\flutter\bin”
+
+Kemudian di command prompt arahkan ke path berikut:
+C:/Android/tools/bin 
+
+Lalu jalankan copy and paste per baris dan jalankan perintah tersebut.
+sdkmanager “system-images;android-28;default;x86_64”
+sdkmanager “platform-tools”
+sdkmanager “build-tools;28.0.3”
+sdkmanager “platforms;android-28”
+
+Update Android SDK (Last Version)
+Untuk sdk, Flutter selalu memerlukan Android SDK yang terbaru. jadi silahkan update sdk dengan command di bawah ini:
+sdkmanager —-update
+
+Kemudian jangan lupa untuk accept licenses-nya:
+flutter doctor --android-licenses
+
+Selanjutnya install Visual Studio Code beserta ekstension flutter dan dart.
+Jika semuanya sudah selesai, silahkan Anda buka C:\Android\Flutter\flutter_console.bat
+
+Kemudian jalankan perintah flutter doctor, maka hasilnya seperti gambar berikut.
+</p>
+
+<p>
+Step terakhir adalah buat project di VsCode dengan klik F1 dan mengetikan Flutter: New Project setelah project selesai di load, klik F5 untuk mendeploy ke android device teman-teman. dan hasilnya seperti gambar dibawah ini
+</p>
