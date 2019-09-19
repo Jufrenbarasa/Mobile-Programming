@@ -29,25 +29,30 @@
 <p>Path: C:\Android</p>
 
 <h3>Set Environment Variable dan Path</h3>
+
 <p>
 Buka command prompt di windows Anda, run as administrator. Kemudian copy and paste command per baris kemudian enter untuk men-set variable dan path.
-setx JAVA_HOME “C:\Android\openjdk”
+<ul>
+  <li>setx JAVA_HOME “C:\Android\openjdk”</li>
 
-setx ANDROID_HOME “C:\Android”
+  <li>setx ANDROID_HOME “C:\Android”</li>
 
-setx ANDROID_SDK_ROOT “C:\Android\tools”
+  <li>setx ANDROID_SDK_ROOT “C:\Android\tools”</li>
 
-setx path “%path%;”C:\Android\sdk;C:\Android\tools\bin;C:\Android\flutter\bin”
+  <li>setx path “%path%;”C:\Android\sdk;C:\Android\tools\bin;C:\Android\flutter\bin”</li>
+</ul>
+</p>
 
 Kemudian di command prompt arahkan ke path berikut:
 C:/Android/tools/bin 
 
 Lalu jalankan copy and paste per baris dan jalankan perintah tersebut.
-sdkmanager “system-images;android-28;default;x86_64”
-sdkmanager “platform-tools”
-sdkmanager “build-tools;28.0.3”
-sdkmanager “platforms;android-28”
-
+<ul>
+  <li>sdkmanager “system-images;android-28;default;x86_64”</li>
+  <li>sdkmanager “platform-tools”</li>
+  <li>sdkmanager “build-tools;28.0.3”</li>
+  <li>sdkmanager “platforms;android-28”</li>
+</ul>
 Update Android SDK (Last Version)
 Untuk sdk, Flutter selalu memerlukan Android SDK yang terbaru. jadi silahkan update sdk dengan command di bawah ini:
 sdkmanager —-update
