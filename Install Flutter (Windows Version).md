@@ -62,7 +62,7 @@ Lalu jalankan copy and paste per baris dan jalankan perintah tersebut.
 <h3>Update Android SDK (Last Version)</h3>
 <p>
   Untuk sdk, Flutter selalu memerlukan Android SDK yang terbaru. jadi silahkan update sdk dengan command di bawah ini:<br>
-sdkmanager —-update<br>
+sdkmanager --update<br>
 Kemudian jangan lupa untuk accept licenses-nya:<br>
 flutter doctor --android-licenses
 </p>
