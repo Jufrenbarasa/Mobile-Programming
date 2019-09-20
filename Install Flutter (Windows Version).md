@@ -76,6 +76,6 @@ Kemudian jalankan perintah <b>flutter doctor</b>, maka hasilnya seperti gambar b
 </p>
 
 <p>
-Langkah terakhir adalah buat project di VsCode dengan klik F1 dan mengetikan Flutter: New Project setelah project selesai di-<i>load</i>, klik F5 untuk deploy ke android device Anda. <br>
-Hasilnya seperti gambar dibawah ini:<br>
+Langkah terakhir adalah buat project di VsCode dengan klik F1 dan mengetikan Flutter: <br>
+New Project setelah project selesai di-<i>load</i>, klik F5 untuk deploy ke android device Anda. <br>
 </p>
