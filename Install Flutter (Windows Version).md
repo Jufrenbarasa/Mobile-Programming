@@ -69,7 +69,7 @@ flutter doctor --android-licenses
 Selanjutnya install Visual Studio Code beserta ekstension flutter dan dart.
 Jika semuanya sudah selesai, silahkan Anda buka C:\Android\Flutter\flutter_console.bat<br>
 
-Kemudian jalankan perintah flutter doctor, maka hasilnya seperti gambar berikut.
+Kemudian jalankan perintah <b>flutter doctor</b>, maka hasilnya seperti gambar berikut.
 </p>
 
 <p>
