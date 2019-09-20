@@ -47,6 +47,8 @@
       <li>setx path “%path%;”C:\Android\sdk;C:\Android\tools\bin;C:\Android\flutter\bin”</li>
     </ul>
     
+   <img src="https://raw.githubusercontent.com/Jufrenbarasa/Mobile-Programming/master/Screenshoots/Set_Env.PNG" />
+    
    Kemudian di command prompt arahkan ke path berikut:
    C:/Android/tools/bin 
    </p>
@@ -69,7 +71,8 @@ flutter doctor --android-licenses
 Selanjutnya install Visual Studio Code beserta ekstension flutter dan dart.
 Jika semuanya sudah selesai, silahkan Anda buka C:\Android\Flutter\flutter_console.bat<br>
 
-Kemudian jalankan perintah <b>flutter doctor</b>, maka hasilnya seperti gambar berikut.
+Kemudian jalankan perintah <b>flutter doctor</b>, maka hasilnya seperti gambar berikut.<br />
+<img src="https://raw.githubusercontent.com/Jufrenbarasa/Mobile-Programming/master/Screenshoots/flutter_doctor.PNG" />
 </p>
 
 <p>
